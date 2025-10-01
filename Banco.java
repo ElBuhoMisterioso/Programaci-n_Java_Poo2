@@ -37,10 +37,14 @@
     // verificar usuario y contrase��a
 
     public void verificarCredenciales(String usuario, String contrasena) {
-        if (this.usuario.equals(usuario) && this.contrasena.equals(contrasena)) {
-            System.out.println("Credenciales correctas.");
-        } else {
-            System.out.println("Credenciales incorrectas.");
-        }
-    }
+       if (this.usuario.equals(usuario) && this.contrasena.equals(contrasena)) {
+           System.out.println("Credenciales correctas.");
+       } else {
+          System.out.println("Credenciales incorrectas.");
+   }
+ }
+
+   //    public boolean verificarCredenciales(String usuario, String contrasena) {
+   //     return this.usuario.equals(usuario) && this.contrasena.equals(contrasena);
+   // }
 }

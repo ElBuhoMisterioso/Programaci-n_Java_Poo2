@@ -15,8 +15,8 @@ public class Appbanco {
 
         Banco banco = new Banco(usuario, contrasena, salario);
         System.out.println("Bienvenido " + banco.getUsuario() + ". Su salario es: " + banco.getSalario());
-        scanner.close();
 
-        
+        // Verificar credenciales
+        banco.verificarCredenciales(usuario, contrasena);
     }
 }
