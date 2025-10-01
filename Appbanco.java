@@ -17,10 +17,6 @@ public class Appbanco {
         System.out.println("Bienvenido " + banco.getUsuario() + ". Su salario es: " + banco.getSalario());
         scanner.close();
 
-        if(verificarCredenciales(usuario, contrasena)) {
-            System.out.println("Acceso concedido.");
-        } else {
-            System.out.println("Acceso denegado.");
-        }
+        
     }
 }
